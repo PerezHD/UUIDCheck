@@ -1,0 +1,14 @@
+name: UUIDCheck
+main: me.clip.uuidcheck.UUIDCheck
+version: 1.0
+author: extended_clip
+description: minecraft UUID/name checker
+permissions:
+    uuidcheck.use:
+        description: Ability to use /cp name or /cp uuid
+        default: op
+commands:
+   cp:
+     description: check a players uuid or name
+     aliases: [checkplayer]
+     
